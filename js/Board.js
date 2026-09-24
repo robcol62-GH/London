@@ -1,6 +1,6 @@
 ﻿/*********************************************************************
 
-    Gioco dell'LoCa
+    London WEB
     File: Board.js
     Versione: 0.2.0
 

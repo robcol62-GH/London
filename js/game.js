@@ -1,6 +1,6 @@
 ﻿/*********************************************************************
 
-    Gioco dell'LoCa
+    London WEB
     File: game.js
     Versione: 0.1.0
 
@@ -10,7 +10,7 @@ const Game = {
 
     version: "0.1.0",
 
-    title: "Gioco dell'LoCa",
+    title: "London WEB",
 
     debug: true,
 

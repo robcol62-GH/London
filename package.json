@@ -1,8 +1,8 @@
 {
-  "name": "giocoloca",
-  "productName": "Gioco dell'Lo.Ca.",
+  "name": "londonweb",
+  "productName": "London WEB",
   "version": "1.0.0",
-  "description": "Gioco dell'Lo.Ca. per Lo.Ca. 4 Students",
+  "description": "London WEB",
   "author": "Lo.Ca. 4 Students",
   "main": "main.js",
   "type": "commonjs",
@@ -15,12 +15,12 @@
 
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/robcol62-gh/GiocoLoca.git"
+    "url": "git+https://github.com/robcol62-gh/London.git"
   },
 
   "build": {
-    "appId": "it.loca4students.giocoloca",
-    "productName": "Gioco dell'Lo.Ca.",
+    "appId": "it.loca4students.london",
+    "productName": "London WEB",
     "directories": {
       "output": "build"
     },

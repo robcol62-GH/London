@@ -1,6 +1,6 @@
 ﻿/*********************************************************************
 
-    Gioco dell'LoCa
+    London WEB
     File: storage.js
 
 *********************************************************************/
@@ -33,7 +33,7 @@ const Storage = {
 
         try {
 
-            const response = await fetch("data/caselle.json?v=20260924172733");
+            const response = await fetch("data/caselle.json?v=20260924195920");
 
             if (!response.ok) {
 
