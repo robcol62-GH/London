@@ -415,7 +415,7 @@ const Popup = {
         // CHIODO DELLA CARD
         //==============================
 
-        if (data.image) {
+        //if (data.image) {     (LONDON)
 
             const pin = document.createElement("div");
 
@@ -437,8 +437,9 @@ const Popup = {
 
             });
 
-            mediaArea.appendChild(pin);
-        }
+            //mediaArea.appendChild(pin);   (LONDON)
+            window.appendChild(pin);
+        //}
 
         //==============================
         // Audio

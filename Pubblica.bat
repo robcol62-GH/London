@@ -1,9 +1,9 @@
 @echo off
-cd /d "c:\Sviluppo\Progetti\GiocoLoCa"
+cd /d "c:\Sviluppo\Progetti\London"
 
 echo.
 echo ========================================
-echo        PUBBLICAZIONE GIOCOLOCA
+echo        PUBBLICAZIONE LONDON
 echo ========================================
 echo.
 
@@ -12,7 +12,7 @@ git add .
 
 echo.
 echo [2/3] Creo il commit...
-git commit -m "Aggiornamento GiocoLoCa"
+git commit -m "Aggiornamento London"
 
 echo.
 echo [3/3] Invio a GitHub...

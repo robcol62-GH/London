@@ -315,12 +315,13 @@
 }
 
 /*==================================================
-  COLONNA DESTRA
+  COLONNA DESTRA (LONDON)
 ==================================================*/
 
 .rightPanel{
 
-    width:280px;
+    width:700px;
+    max-width:70vw;
 
     display:flex;
 
@@ -331,6 +332,7 @@
     gap:25px;
 
 }
+
 .selectorButton{
 
     position:absolute;
@@ -507,7 +509,7 @@
   CHIODO DELLA CARD
 ==================================================*/
 
-.cardPin{
+.OLDcardPin{
 
     position:absolute;
 
@@ -519,6 +521,38 @@
 
     transform:
         translate(-50%,-50%)
+        scale(0);
+
+    border-radius:50%;
+
+    border:2px solid #555;
+
+    box-shadow:
+        0 5px 8px rgba(0,0,0,.45),
+        inset 2px 2px 3px rgba(255,255,255,.8),
+        inset -3px -4px 5px rgba(0,0,0,.35);
+
+    z-index:20;
+
+    cursor:pointer;
+
+    animation:
+        nailAppear .32s cubic-bezier(.18,.89,.32,1.45) .25s forwards;
+
+}
+/*LONDON*/
+.cardPin{
+
+position:absolute;
+
+    left:100%;
+    top:0;
+
+    width:42px;
+    height:42px;
+
+    transform:
+        translate(-50%,-70%)
         scale(0);
 
     border-radius:50%;
