@@ -33,7 +33,7 @@ const Storage = {
 
         try {
 
-            const response = await fetch("data/caselle.json?v=20260924200019");
+            const response = await fetch("data/caselle.json?v=20260924200108");
 
             if (!response.ok) {
 
