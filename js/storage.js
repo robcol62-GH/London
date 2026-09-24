@@ -1,4 +1,4 @@
-/*********************************************************************
+﻿/*********************************************************************
 
     Gioco dell'LoCa
     File: storage.js
@@ -33,7 +33,7 @@ const Storage = {
 
         try {
 
-            const response = await fetch("data/caselle.json");
+            const response = await fetch("data/caselle.json?v=20260924172733");
 
             if (!response.ok) {
 
@@ -57,3 +57,4 @@ const Storage = {
     }
 
 };
+

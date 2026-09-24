@@ -1,4 +1,4 @@
-
+﻿
 const DirectorAction = {
 
     MOVE: "MOVE"
@@ -37,9 +37,9 @@ const Director = {
 
         Game.director.selectedPlayer = null;
 
-        UI.setStatus("🎯 Seleziona una pedina");
+        UI.setStatus("ðŸŽ¯ Seleziona una pedina");
 
-        Game.log("Director: modalità attiva");
+        Game.log("Director: modalitÃ  attiva");
 
     },
 
@@ -56,11 +56,11 @@ const Director = {
         // Togli anche la selezione del gioco normale
         Game.selectedPlayer = null;
 
-        UI.setStatus("🟢 Applicazione pronta");
+        UI.setStatus("ðŸŸ¢ Applicazione pronta");
 
         Renderer.refresh();
 
-        Game.log("Director: modalità terminata");
+        Game.log("Director: modalitÃ  terminata");
 
     },
     
@@ -85,7 +85,7 @@ const Director = {
 
         Game.director.step = 2;
 
-        UI.setStatus("🎯 Seleziona una casella");
+        UI.setStatus("ðŸŽ¯ Seleziona una casella");
 
         Renderer.refresh();
 
@@ -101,7 +101,7 @@ const Director = {
 
         Game.director.selectedPlayer.cellId = cell.id;
         Game.log(
-            `Director: ${Game.director.selectedPlayer.name} → casella ${cell.id}`
+            `Director: ${Game.director.selectedPlayer.name} â†’ casella ${cell.id}`
         );
 
         Renderer.refresh();
@@ -110,3 +110,4 @@ const Director = {
 
     }
 };
+

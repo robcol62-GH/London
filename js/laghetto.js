@@ -1,4 +1,4 @@
-const Laghetto = {
+﻿const Laghetto = {
 
     firstShow: true,
 
@@ -113,10 +113,11 @@ const Laghetto = {
         });
         this.firstShow = false;
 
-        // Se il Laghetto è vuoto lo nasconde
+        // Se il Laghetto Ã¨ vuoto lo nasconde
         if (count === 0) {
             this.hide();
         }
     }
 };
+
 

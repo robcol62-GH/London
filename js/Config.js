@@ -1,4 +1,4 @@
-/*********************************************************************
+﻿/*********************************************************************
 
     Gioco dell'LoCa
     File: Config.js
@@ -104,9 +104,9 @@ const Config = {
         Game.mode = "config";
         Game.overlay.style.pointerEvents = "auto";
 
-        UI.setStatus("🟡 Modalità configurazione");
+        UI.setStatus("ðŸŸ¡ ModalitÃ  configurazione");
 
-        Game.log("Modalità configurazione attiva");
+        Game.log("ModalitÃ  configurazione attiva");
 
     },
 
@@ -148,7 +148,7 @@ const Config = {
 
 
         // ==============================
-        // MODALITÀ PLAY
+        // MODALITÃ€ PLAY
         // ==============================
 
         if (Game.mode === "play") {
@@ -156,7 +156,7 @@ const Config = {
             // CLICK SULLA PEDINA
             // ==============================
 
-            // Se sto già spostando una pedina,
+            // Se sto giÃ  spostando una pedina,
             // ignoro eventuali click sulle altre pedine.
             let nearestCell = null;
             let nearestDistance = Infinity;
@@ -182,7 +182,7 @@ const Config = {
             const clickRadius = Config.CLICK_RADIUS;
 
             // ==============================
-            // MODALITÀ DIRECTOR
+            // MODALITÃ€ DIRECTOR
             // ==============================
 
             if (
@@ -215,10 +215,10 @@ const Config = {
 
                 if (Game.selectedPlayer) {
 
-                    // La pedina è ferma: non può essere spostata.
+                    // La pedina Ã¨ ferma: non puÃ² essere spostata.
                     if (Game.selectedPlayer.stopTurns > 0) {
 
-                        UI.message("⛔ OCA ferma. Premi SPACE.");
+                        UI.message("â›” OCA ferma. Premi SPACE.");
 
                         Game.selectedPlayer = null;
 
@@ -264,7 +264,7 @@ const Config = {
         }
 
         // ==============================
-        // MODALITÀ CONFIG
+        // MODALITÃ€ CONFIG
         // ==============================
 
         if (Game.mode !== "config") {
@@ -349,3 +349,4 @@ const Config = {
 
     }
 };
+

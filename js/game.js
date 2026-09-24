@@ -1,4 +1,4 @@
-/*********************************************************************
+﻿/*********************************************************************
 
     Gioco dell'LoCa
     File: game.js
@@ -27,7 +27,7 @@ const Game = {
     // Elenco delle caselle configurate
     cells: [],
 
-    // Modalità corrente
+    // ModalitÃ  corrente
     mode: "play",
 
     configurationMode: false,
@@ -137,3 +137,4 @@ const Game = {
     }
 
 };
+

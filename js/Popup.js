@@ -1,8 +1,8 @@
-const Popup = {
+﻿const Popup = {
 
     createOverlay() {
 
-        // Evita di aprire più popup contemporaneamente
+        // Evita di aprire piÃ¹ popup contemporaneamente
         if (document.getElementById("gamePopup")) {
             return null;
         }
@@ -96,7 +96,7 @@ const Popup = {
 
             overlay.remove();
 
-            //UI.setStatus("🟢 Applicazione pronta");
+            //UI.setStatus("ðŸŸ¢ Applicazione pronta");
 
         }
 
@@ -105,7 +105,7 @@ const Popup = {
     showDice(diceId) {
 
         const dice = Dice.get(diceId);
-        UI.setStatus("🎲 " + dice.name);
+        UI.setStatus("ðŸŽ² " + dice.name);
 
         const overlay = this.createOverlay();
 
@@ -271,25 +271,25 @@ const Popup = {
                             y: startY
                         },
 
-                        // 1° atterraggio
+                        // 1Â° atterraggio
                         {
                             x: globalThis.innerWidth * 0.34,
                             y: globalThis.innerHeight * 0.55
                         },
 
-                        // 2° atterraggio
+                        // 2Â° atterraggio
                         {
                             x: globalThis.innerWidth * 0.50,
                             y: globalThis.innerHeight * 0.72
                         },
 
-                        // 3° atterraggio
+                        // 3Â° atterraggio
                         {
                             x: globalThis.innerWidth * 0.67,
                             y: globalThis.innerHeight * 0.43
                         },
 
-                        // 4° atterraggio
+                        // 4Â° atterraggio
                         {
                             x: globalThis.innerWidth * 0.80,
                             y: globalThis.innerHeight * 0.57
@@ -522,7 +522,7 @@ const Popup = {
 
         const dice = Dice.get(diceId);
 
-        UI.setStatus("🎲 " + dice.name);
+        UI.setStatus("ðŸŽ² " + dice.name);
 
         const window = document.createElement("div");
 
@@ -585,3 +585,4 @@ const Popup = {
     }
 
 };
+

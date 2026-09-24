@@ -1,4 +1,4 @@
-/*********************************************************************
+﻿/*********************************************************************
 
     Gioco dell'LoCa
     File: app.js
@@ -54,6 +54,7 @@ async function startApplication() {
 
     Game.log("Applicazione pronta");
 
-    UI.setStatus("🟢 Applicazione pronta");
+    UI.setStatus("ðŸŸ¢ Applicazione pronta");
 
 }
+

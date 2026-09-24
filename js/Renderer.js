@@ -1,4 +1,4 @@
-/*********************************************************************
+﻿/*********************************************************************
 
     Gioco dell'LoCa
 
@@ -549,7 +549,7 @@ const Renderer = {
             [0.088, 0.228],   // 14
             [0.060, 0.228],   // 15
 
-            // zona interna — rifinitura
+            // zona interna â€” rifinitura
             //[0.135, 0.170],   // 16
             //[0.165, 0.155],   // 17
             //[0.195, 0.155],   // 18
@@ -706,7 +706,7 @@ const Renderer = {
             }
             /* ==================================================
             PEDINE SUL TABELLONE
-            DA QUI IN POI È IL CODICE ORIGINALE
+            DA QUI IN POI Ãˆ IL CODICE ORIGINALE
             ================================================== */
 
             const cell = Game.cells.find(
@@ -871,7 +871,7 @@ const Renderer = {
 
                 event.stopPropagation();
 
-                // Modalità Director
+                // ModalitÃ  Director
                 if (
                     Game.director.enabled &&
                     Game.director.step === 1
@@ -951,3 +951,4 @@ const Renderer = {
             }        
         }
 };
+

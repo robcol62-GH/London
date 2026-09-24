@@ -1,4 +1,4 @@
-const PlayerSetup = {
+﻿const PlayerSetup = {
 
     init() {
         
@@ -143,4 +143,5 @@ const PlayerSetup = {
 
     }
 };
+
 

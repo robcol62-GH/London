@@ -1,10 +1,10 @@
-const Dice = {
+﻿const Dice = {
 
     list: [],
 
     async load() {
 
-        const response = await fetch("data/dice.json");
+        const response = await fetch("data/dice.json?v=20260924172733");
 
         this.list = await response.json();
 
@@ -327,3 +327,4 @@ console.log(
     }
 
 };
+

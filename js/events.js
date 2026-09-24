@@ -1,10 +1,10 @@
-class Events {
+﻿class Events {
 
     static events = [];
 
     static async load() {
 
-        const response = await fetch("data/events.json");
+        const response = await fetch("data/events.json?v=20260924172733");
 
         this.events = await response.json();
 
@@ -19,3 +19,4 @@ class Events {
     }
 
 }
+
