@@ -1,0 +1,42 @@
+{
+  "name": "giocoloca",
+  "productName": "Gioco dell'Lo.Ca.",
+  "version": "1.0.0",
+  "description": "Gioco dell'Lo.Ca. per Lo.Ca. 4 Students",
+  "author": "Lo.Ca. 4 Students",
+  "main": "main.js",
+  "type": "commonjs",
+  "license": "ISC",
+
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win portable"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robcol62-gh/GiocoLoca.git"
+  },
+
+  "build": {
+    "appId": "it.loca4students.giocoloca",
+    "productName": "Gioco dell'Lo.Ca.",
+    "directories": {
+      "output": "build"
+    },
+
+    "files": [
+      "**/*",
+      "!dist/**",
+      "!node_modules/.cache/**"
+    ],
+    "win": {
+      "target": "portable"
+    }
+  },
+
+  "devDependencies": {
+    "electron": "^43.1.1",
+    "electron-builder": "^26.15.3"
+  }
+}
