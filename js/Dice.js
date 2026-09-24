@@ -4,7 +4,7 @@ const Dice = {
 
     async load() {
 
-        const response = await fetch("data/Dice.json");
+        const response = await fetch("data/dice.json");
 
         this.list = await response.json();
 
