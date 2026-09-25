@@ -4,7 +4,7 @@
 
     async load() {
 
-        const response = await fetch("data/dice.json?v=58051620260925");
+        const response = await fetch("data/dice.json?v=18101620260925");
 
         this.list = await response.json();
 
