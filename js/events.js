@@ -4,7 +4,7 @@
 
     static async load() {
 
-        const response = await fetch("data/events.json?v=18052020260924");
+        const response = await fetch("data/events.json?v=17591520260925");
 
         this.events = await response.json();
 
