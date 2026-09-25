@@ -33,8 +33,8 @@ const Storage = {
 
         try {
 
-            const response = await fetch("data/caselle.json?v=17591520260925");
-
+            //const response = await fetch("data/caselle.json?v=08041620260925");
+            const response = await fetch("data/caselle.json?v=08041620260925");
             if (!response.ok) {
 
                 throw new Error("Impossibile leggere caselle.json");
