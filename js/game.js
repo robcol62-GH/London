@@ -1,6 +1,6 @@
 ﻿/*********************************************************************
 
-    London WEB
+    London Click
     File: game.js
     Versione: 0.1.0
 
@@ -10,7 +10,7 @@ const Game = {
 
     version: "0.1.0",
 
-    title: "London WEB",
+    title: "London Click",
 
     debug: true,
 

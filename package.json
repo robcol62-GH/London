@@ -1,8 +1,8 @@
 {
   "name": "londonweb",
-  "productName": "London WEB",
+  "productName": "London Click",
   "version": "1.0.0",
-  "description": "London WEB",
+  "description": "London Click",
   "author": "Lo.Ca. 4 Students",
   "main": "main.js",
   "type": "commonjs",
@@ -20,7 +20,7 @@
 
   "build": {
     "appId": "it.loca4students.london",
-    "productName": "London WEB",
+    "productName": "London Click",
     "directories": {
       "output": "build"
     },

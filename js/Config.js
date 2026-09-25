@@ -1,14 +1,14 @@
 ﻿/*********************************************************************
 
-    London WEB
+    London Click
     File: Config.js
 
 *********************************************************************/
 
 const Config = {
 
-    // Numero Massimo di Giocatori
-    MAX_PLAYERS:15,
+    // Numero Massimo di Giocatori (0 no gioco)
+    MAX_PLAYERS:0,
 
     // Numero massimo di pedine sulla stessa casella per attivare l'evento di affollamento.
     CROWDING_LIMIT:4,

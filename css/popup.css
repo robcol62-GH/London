@@ -77,7 +77,8 @@
     width:auto;
     height:auto;
 
-    max-width:min(700px, 70vw);
+    /* Larghezza CARD*/
+    max-width:min(900px, 80vw);
     max-height:72vh;
 
     border-radius:26px;
@@ -545,32 +546,32 @@
 
 position:absolute;
 
-    left:100%;
-    top:0;
-
+    left:50%;
+    top:20px;
     width:42px;
     height:42px;
 
     transform:
-        translate(-50%,-70%)
-        scale(0);
+        translate(-50%,-50%)
+        scale(1);
 
     border-radius:50%;
 
     border:2px solid #555;
-
+    background:red;
     box-shadow:
         0 5px 8px rgba(0,0,0,.45),
         inset 2px 2px 3px rgba(255,255,255,.8),
         inset -3px -4px 5px rgba(0,0,0,.35);
 
-    z-index:20;
+    z-index:1000 !important;
 
     cursor:pointer;
 
-    animation:
-        nailAppear .32s cubic-bezier(.18,.89,.32,1.45) .25s forwards;
-
+    animation:none;
+    opacity:1;
+    background:red;
+    
 }
 
 
@@ -600,13 +601,11 @@ position:absolute;
 /* effetto quando ci passi sopra */
 
 .cardPin:hover{
-
-    animation:
-        nailAppear .32s cubic-bezier(.18,.89,.32,1.45) forwards,
-        nailPulse .7s ease-in-out .32s infinite;
-
+    animation:none !important;
+    transform:
+        translate(-50%,-50%)
+        scale(1) !important;
 }
-
 
 /* animazione di comparsa */
 

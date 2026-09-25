@@ -1,4 +1,4 @@
-# Gioco dell'LoCa
+# London Click
 
 ## Versione 0.1.0
 

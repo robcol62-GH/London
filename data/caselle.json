@@ -2,10 +2,10 @@
     "version": "1.0",
     "cells": [
         {
-            "id": 1,
+            "id": 0,
             "position": {
-                "x": 0.06765588670471359,
-                "y": 0.377890292822909
+                "x": 0.12716010753128618,
+                "y": 0.6153732332072144
             },
             "image": null,
             "txt": null,
@@ -14,10 +14,22 @@
             "selector": null
         },
         {
+            "id": 1,
+            "position": {
+                "x": 0.24274046243914577,
+                "y": 0.5667986612237329
+            },
+            "image": "01.png",
+            "txt": null,
+            "video": null,
+            "audio": null,
+            "selector": null
+        },
+        {
             "id": 2,
             "position": {
-                "x": 0.06495032762629466,
-                "y": 0.45673763127450834
+                "x": 0.12218890947073308,
+                "y": 0.3945797241913896
             },
             "image": null,
             "txt": null,
@@ -28,8 +40,8 @@
         {
             "id": 3,
             "position": {
-                "x": 0.06062143310082435,
-                "y": 0.5211616761069127
+                "x": 0.19302848183361476,
+                "y": 0.4177630426380512
             },
             "image": null,
             "txt": null,
@@ -40,21 +52,20 @@
         {
             "id": 4,
             "position": {
-                "x": 0.058998097653772986,
-                "y": 0.5980859087426194
+                "x": 0.43972418558856236,
+                "y": 0.5513431155926252
             },
-            "image": "LoCa.png",
+            "image": null,
             "txt": null,
             "video": null,
             "audio": null,
-            "selector": null,
-            "ignoreCrowding": true
+            "selector": null
         },
         {
             "id": 5,
             "position": {
-                "x": 0.052504755865567534,
-                "y": 0.666356165206809
+                "x": 0.3508640202561757,
+                "y": 0.44315429617487107
             },
             "image": null,
             "txt": null,
@@ -65,47 +76,44 @@
         {
             "id": 6,
             "position": {
-                "x": 0.04979919678714859,
-                "y": 0.7336648687630524
+                "x": 0.48632916740624765,
+                "y": 0.6319327463834012
             },
-            "image": "Elle.png",
+            "image": null,
             "txt": null,
             "video": null,
             "audio": null,
-            "selector": null,
-            "ignoreCrowding": true            
+            "selector": null
         },
         {
             "id": 7,
             "position": {
-                "x": 0.05466920312830269,
-                "y": 0.8317432653735783
+                "x": 0.5913457264354319,
+                "y": 0.6286208437481638
             },
-            "image": "Banana.png",
+            "image": null,
             "txt": null,
             "video": null,
             "audio": null,
-            "selector": null,
-            "ignoreCrowding": true
+            "selector": null
         },
         {
             "id": 8,
             "position": {
-                "x": 0.13908264637497358,
-                "y": 0.8471281119007197
+                "x": 0.5621399378296824,
+                "y": 0.34490118466282904
             },
-            "image": "PausaCaffe.png",
+            "image": null,
             "txt": null,
             "video": null,
             "audio": null,
-            "selector": null,
-            "ignoreCrowding": true
+            "selector": null
         },
         {
             "id": 9,
             "position": {
-                "x": 0.1910293806806172,
-                "y": 0.8057813368590273
+                "x": 0.7038190825554458,
+                "y": 0.5701105638589703
             },
             "image": null,
             "txt": null,
@@ -116,8 +124,8 @@
         {
             "id": 10,
             "position": {
-                "x": 0.2575861340097231,
-                "y": 0.7798194083444764
+                "x": 0.9014242054624315,
+                "y": 0.5149121866050141
             },
             "image": null,
             "txt": null,
@@ -128,706 +136,8 @@
         {
             "id": 11,
             "position": {
-                "x": 0.23269499048826886,
-                "y": 0.7077029402485013
-            },
-            "image": "O.png",
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null,
-            "ignoreCrowding": true            
-        },
-        {
-            "id": 12,
-            "position": {
-                "x": 0.21646163601775523,
-                "y": 0.63462491924458
-            },
-            "image": "Campanella.png",
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null,
-            "ignoreCrowding": true            
-        },
-        {
-            "id": 13,
-            "position": {
-                "x": 0.21429718875502007,
-                "y": 0.5644315569644976
-            },
-            "image": "Tifosi.png",
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": "TIFOSI",
-            "ignoreCrowding": true
-        },
-        {
-            "id": 14,
-            "position": {
-                "x": 0.21646163601775523,
-                "y": 0.496161300500308
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null
-        },
-        {
-            "id": 15,
-            "position": {
-                "x": 0.23215387867258508,
-                "y": 0.43077570275995736
-            },
-            "image": "Riunione.png",
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null,
-            "ignoreCrowding": true
-        },
-        {
-            "id": 16,
-            "position": {
-                "x": 0.25542168674698795,
-                "y": 0.37981339863880165
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null
-        },
-        {
-            "id": 17,
-            "position": {
-                "x": 0.28951173113506656,
-                "y": 0.34808215267657266
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null
-        },
-        {
-            "id": 18,
-            "position": {
-                "x": 0.3268484464172479,
-                "y": 0.34231283522889466
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null,
-            "ignoreCrowding": true            
-        },
-        {
-            "id": 19,
-            "position": {
-                "x": 0.36418516169942927,
-                "y": 0.37500563409907
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null
-        },
-        {
-            "id": 20,
-            "position": {
-                "x": 0.38420629887972946,
-                "y": 0.4365450202076353
-            },
-            "image": "Gita.png",
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": "PLAYER_ALL"
-        },
-        {
-            "id": 21,
-            "position": {
-                "x": 0.39178186429930245,
-                "y": 0.5067383824877176
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null
-        },
-        {
-            "id": 22,
-            "position": {
-                "x": 0.39394631156203763,
-                "y": 0.5692393215042293
-            },
-            "image": "Insegnante.png",
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": "AvIn",
-            "ignoreCrowding": true            
-        },
-        {
-            "id": 23,
-            "position": {
-                "x": 0.38907630522088354,
-                "y": 0.6423173425081506
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null
-        },
-        {
-            "id": 24,
-            "position": {
-                "x": 0.37771295709152397,
-                "y": 0.7144338106041257
-            },
-            "image": "OcaStop.png",
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": "PLAYER_ALL",
-            "ignoreCrowding": true            
-        },
-        {
-            "id": 25,
-            "position": {
-                "x": 0.3560684844641725,
-                "y": 0.7625114560014423
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null
-        },
-        {
-            "id": 26,
-            "position": {
-                "x": 0.3311773409427182,
-                "y": 0.77885785543653
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null,
-            "ignoreCrowding": true            
-        },
-        {
-            "id": 27,
-            "position": {
-                "x": 0.2922172902134855,
-                "y": 0.7865502787001006
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null
-        },
-        {
-            "id": 28,
-            "position": {
-                "x": 0.38745296977383215,
-                "y": 0.799050466503403
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null
-        },
-        {
-            "id": 29,
-            "position": {
-                "x": 0.42100190234622703,
-                "y": 0.8432819002689343
-            },
-            "image": "Prigione.png",
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": "PRIGIONE",
-            "ignoreCrowding": true
-        },
-        {
-            "id": 30,
-            "position": {
-                "x": 0.4653730712322976,
-                "y": 0.7894349374239397
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null
-        },
-        {
-            "id": 31,
-            "position": {
-                "x": 0.5037920101458465,
-                "y": 0.7163569164200183
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null
-        },
-        {
-            "id": 32,
-            "position": {
-                "x": 0.4918875502008032,
-                "y": 0.6500097657717213
-            },
-            "image": null,
-            "txt":"[TEST DUE TRE] Buckingham Palace serves as the official London residence and ………………… headquarters of the monarch of the United Kingdom, and it has been the official royal palace since ……………… took up residence in 1837.\nThe palace takes its name from …………………………, Duke of Buckingham.\nIt was bought in 1762 by ………………………. for his wife, Queen Charlotte, and became known as the Queen’s House.",
-            "video": null,
-            "audio": null,
-            "selector": null,
-            "ignoreCrowding": true            
-        },
-        {
-            "id": 33,
-            "position": {
-                "x": 0.4794419784400761,
-                "y": 0.565393109872444
-            },
-            "image": "MvsF.png",
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": "MVSF",
-            "ignoreCrowding": true
-        },
-        {
-            "id": 34,
-            "position": {
-                "x": 0.48647643204396535,
-                "y": 0.507699935395664
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null
-        },
-        {
-            "id": 35,
-            "position": {
-                "x": 0.49567533291058974,
-                "y": 0.43269880857585
-            },
-            "image": "TiraAncora.png",
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null,
-            "ignoreCrowding": true            
-        },
-        {
-            "id": 36,
-            "position": {
-                "x": 0.5254364827731981,
-                "y": 0.37885184573085534
-            },
-            "image": "Scambia.png",
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null,
-            "ignoreCrowding": true            
-        },
-        {
-            "id": 37,
-            "position": {
-                "x": 0.5573620798985416,
-                "y": 0.351928364308358
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null
-        },
-        {
-            "id": 38,
-            "position": {
-                "x": 0.589287677023885,
-                "y": 0.35385147012425067
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null
-        },
-        {
-            "id": 39,
-            "position": {
-                "x": 0.6195899387021772,
-                "y": 0.395198245165943
-            },
-            "image": "Dispari.png",
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null,
-            "ignoreCrowding": true            
-        },
-        {
-            "id": 40,
-            "position": {
-                "x": 0.6206721623335447,
-                "y": 0.478853348157274
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null
-        },
-        {
-            "id": 41,
-            "position": {
-                "x": 0.6201310505178609,
-                "y": 0.51923857029102
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null
-        },
-        {
-            "id": 42,
-            "position": {
-                "x": 0.6163432678080744,
-                "y": 0.5528929220691416
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null
-        },
-        {
-            "id": 43,
-            "position": {
-                "x": 0.6103910378355527,
-                "y": 0.5932781442028877
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null
-        },
-        {
-            "id": 44,
-            "position": {
-                "x": 0.6082265905728176,
-                "y": 0.640394236692258
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null
-        },
-        {
-            "id": 45,
-            "position": {
-                "x": 0.6028154724159797,
-                "y": 0.6817410117339503
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null
-        },
-        {
-            "id": 46,
-            "position": {
-                "x": 0.6066032551257662,
-                "y": 0.7461650565663547
-            },
-            "image": "VersoDove.png",
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": "DIREZIONI",
-            "ignoreCrowding": true            
-        },
-        {
-            "id": 47,
-            "position": {
-                "x": 0.5757598816317904,
-                "y": 0.7778963025285837
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null
-        },
-        {
-            "id": 48,
-            "position": {
-                "x": 0.5405876136123441,
-                "y": 0.764434561817335
-            },
-            "image": "Libera.png",
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null,
-            "ignoreCrowding": true
-        },
-        {
-            "id": 49,
-            "position": {
-                "x": 0.6471866413020503,
-                "y": 0.7913580432398323
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null
-        },
-        {
-            "id": 50,
-            "position": {
-                "x": 0.6953455928979074,
-                "y": 0.8403972415450953
-            },
-            "image": "Corbetta.png",
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": "AvIn",
-            "ignoreCrowding": true            
-        },
-        {
-            "id": 51,
-            "position": {
-                "x": 0.7110378355527373,
-                "y": 0.7942427019636713
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null
-        },
-        {
-            "id": 52,
-            "position": {
-                "x": 0.7186134009723103,
-                "y": 0.72116468095975
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null
-        },
-        {
-            "id": 53,
-            "position": {
-                "x": 0.7299767491016699,
-                "y": 0.6528944244955603
-            },
-            "image": "A.png",
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": "AvIn",
-            "ignoreCrowding": true            
-        },
-        {
-            "id": 54,
-            "position": {
-                "x": 0.739716761783978,
-                "y": 0.5769317447678
-            },
-            "image": "Semaforo.png",
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": "SEMAFORO",
-            "ignoreCrowding": true            
-        },
-        {
-            "id": 55,
-            "position": {
-                "x": 0.7456689917564997,
-                "y": 0.507699935395664
-            },
-            "image": "Libera.png",
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null,
-            "ignoreCrowding": true            
-        },
-        {
-            "id": 56,
-            "position": {
-                "x": 0.7570323398858593,
-                "y": 0.43942967893147433
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null
-        },
-        {
-            "id": 57,
-            "position": {
-                "x": 0.7662312407524836,
-                "y": 0.36731321083549934
-            },
-            "image": "OcaStop.png",
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": "PLAYER_ALL",
-            "ignoreCrowding": true            
-        },
-        {
-            "id": 58,
-            "position": {
-                "x": 0.8003212851405622,
-                "y": 0.36827476374344564
-            },
-            "image": "TiraAncora.png",
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null,
-            "ignoreCrowding": true            
-        },
-        {
-            "id": 59,
-            "position": {
-                "x": 0.8089790741915028,
-                "y": 0.43846812602352797
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null
-        },
-        {
-            "id": 60,
-            "position": {
-                "x": 0.8133079687169732,
-                "y": 0.5000075121320934
-            },
-            "image": "TornaScuola.png",
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null,
-            "ignoreCrowding": true            
-        },
-        {
-            "id": 61,
-            "position": {
-                "x": 0.8257535404777002,
-                "y": 0.5759701918598537
-            },
-            "image": "Duello.png",
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null,
-            "ignoreCrowding": true
-        },
-        {
-            "id": 62,
-            "position": {
-                "x": 0.8376580004227436,
-                "y": 0.6452020012319897
-            },
-            "image": "LoCa.png",
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null,
-            "ignoreCrowding": true            
-        },
-        {
-            "id": 63,
-            "position": {
-                "x": 0.846856901289368,
-                "y": 0.718280022235911
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null
-        },
-        {
-            "id": 64,
-            "position": {
-                "x": 0.8057324032974001,
-                "y": 0.7192415751438573
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null,
-            "ignoreCrowding": true            
-        },
-        {
-            "id": 65,
-            "position": {
-                "x": 0.7629845698583809,
-                "y": 0.7230877867756427
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null
-        },
-        {
-            "id": 66,
-            "position": {
-                "x": 0.8560558021559924,
-                "y": 0.77885785543653
-            },
-            "image": null,
-            "txt": null,
-            "video": null,
-            "audio": null,
-            "selector": null
-        },
-        {
-            "id": 67,
-            "position": {
-                "x": 0.9188247727753118,
-                "y": 0.8923210985741973
+                "x": 0.8802966137050808,
+                "y": 0.5955018173957901
             },
             "image": null,
             "txt": null,

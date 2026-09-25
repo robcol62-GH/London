@@ -415,7 +415,7 @@
         // CHIODO DELLA CARD
         //==============================
 
-        //if (data.image) {     (LONDON)
+        if (data.image) {     
 
             const pin = document.createElement("div");
 
@@ -437,9 +437,9 @@
 
             });
 
-            //mediaArea.appendChild(pin);   (LONDON)
-            window.appendChild(pin);
-        //}
+            mediaArea.insertBefore(pin, mediaArea.firstChild);
+            console.log("CHIOD0 CREATO", pin);
+        }
 
         //==============================
         // Audio

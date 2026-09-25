@@ -5,7 +5,7 @@ function createWindow() {
 
     const win = new BrowserWindow({
 
-        title: "London WEB - Lo.Ca. 4 Students",
+        title: "London Click - by Lo.Ca. 4 Students",
 
         width: 1400,
         height: 900,

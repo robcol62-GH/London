@@ -12,6 +12,13 @@
             return;
 
         }
+        if (Config.MAX_PLAYERS === 0) {
+
+            setup.style.display = "none";
+
+        return;
+
+        }
 
         //==============================
         // CREA I PULSANTI GIOCATORI
