@@ -33,8 +33,8 @@ const Storage = {
 
         try {
 
-            //const response = await fetch("data/caselle.json?v=18101620260925");
-            const response = await fetch("data/caselle.json?v=18101620260925", {
+            //const response = await fetch("data/caselle.json?v=30131620260925");
+            const response = await fetch("data/caselle.json?v=30131620260925", {
                 cache: "no-store"
             });
 
