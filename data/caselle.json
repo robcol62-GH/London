@@ -23,7 +23,7 @@
             "txt": null,
             "video": null,
             "audio": null,
-            "selector": "SCEGLITEM"
+            "selector": "CELL_RANDOM"
         },
         {
             "id": 2,

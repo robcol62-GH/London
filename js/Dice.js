@@ -1,7 +1,7 @@
 ﻿const Dice = {
 
     list: [],
-
+    
     async load() {
 
         const response = await fetch("data/dice.json?v=30131620260925");
@@ -22,9 +22,10 @@
 
     },
 
-    roll(id, cell) {
+    roll(id, cell, previousFace) {
 
         const dice = this.get(id);
+        //console.log(">>> DICE RICEVUTO:", id, dice);
 
         if (!dice) {
 
@@ -50,9 +51,11 @@
         if (dice.type === "randomCell") {
 
             const currentCellId = cell?.id;
-
             const availableCells = Game.cells.filter(
-                c => c.id !== 0 && c.id !== currentCellId
+                c =>
+                    c.id !== 0 &&
+                    c.id !== currentCellId &&
+                    c.id !== previousFace?.id
             );
 
             const index = Math.floor(
@@ -60,8 +63,8 @@
             );
 
             return availableCells[index];
-        }
- 
+        } 
+
         // Dado classico
         const index = Math.floor(
             Math.random() * dice.faces.length
@@ -110,24 +113,30 @@
         const rolls = 10;
 
         const delays = [
-            100,
-            90,
-            80,
-            75,
-            70,
-            80,
-            90,
-            110,
-            140,
-            180
+            220,
+            200,
+            190,
+            180,
+            180,
+            180,
+            180,
+            180,
+            200,
+            210
         ];
-
         let finalFace = null;
+        let previousFace = null;
 
         for (let i = 0; i < rolls; i++) {
 
-            finalFace = this.roll(diceId, cell);
-
+            finalFace = this.roll(diceId, cell, previousFace);
+            previousFace = finalFace;
+console.log(
+    "RIMBALZO",
+    i + 1,
+    "ID:",
+    finalFace?.id
+);
             this.showBallFace(ball, finalFace, dice );
 
             await new Promise(resolve =>
@@ -196,7 +205,11 @@
         // CASELLA CASUALE
         //========================================
 
-        if (face.id !== undefined && !face.name && !face.image) {
+            if (
+                face.id !== undefined &&
+                !face.name &&
+                face.position !== undefined
+            ) {
 
             ball.style.setProperty(
                 "--selector-color-1",

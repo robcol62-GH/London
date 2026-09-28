@@ -248,6 +248,9 @@
 
                     const resultPromise =
                         Dice.animateBall(ball, data.selector, cell);                    
+                        resultPromise.then(finalFace => {
+                            console.log("RISULTATO FINALE:", finalFace?.id);
+                        });                        
 
                     //========================================
                     // TRAIETTORIA E RIMBALZI
@@ -329,7 +332,7 @@
                             ball.style.top =
                                 `${endY - 60}px`;
 
-                            ball.classList.add("selectorBallFinal");
+                            //ball.classList.add("selectorBallFinal");
 
                             return;
                         }
