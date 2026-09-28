@@ -7,6 +7,18 @@
 
 const Config = {
 
+    // VOCI MENU
+    MENU: {
+        CONF_CASELLE: false,
+        VEDI_NUMERI: false,
+        EXP_JSON: false,
+        NUOVA_PARTITA: true,
+        TIMER: true,
+        DADO: true,        
+        FULLVIDEO: true
+    },
+
+
     // Numero Massimo di Giocatori (0 no gioco)
     MAX_PLAYERS:0,
 

@@ -12,13 +12,15 @@ const UI = {
         messageTimer=null,
         lastStatus= "",
 
-        this.status = document.getElementById("statusMessage");   
         this.status = document.getElementById("statusMessage");
         this.btnMenu = document.getElementById("btnMenu");
         this.menuPanel = document.getElementById("menuPanel");
         this.btnFullscreen = document.getElementById("btnFullscreen");
         this.btnTimer = document.getElementById("btnTimer");
         this.btnDice = document.getElementById("btnDice");
+        this.btnConfig = document.getElementById("btnConfig");
+        this.btnNumbers = document.getElementById("btnNumbers");
+        this.btnExport = document.getElementById("btnExport");        
         this.dicePanel = document.getElementById("dicePanel");
         this.diceResult = document.getElementById("diceResult");
         this.btnDiceClose = document.getElementById("btnDiceClose");        
@@ -40,9 +42,32 @@ const UI = {
         this.timerRemaining = 0;
         this.timerInitial = 0;
         
+        //==============================
+        // VISIBILITÀ MENU
+        //==============================
+
+        if (!Config.MENU.TIMER ) {
+            this.btnTimer.style.display = "none";
+        }
+        if (!Config.MENU.FULLVIDEO ) {
+            this.btnFullscreen.style.display = "none";
+        }
+        if (!Config.MENU.DADO ) {
+            this.btnDice.style.display = "none";
+        }
+        if (!Config.MENU.CONF_CASELLE ) {
+            this.btnConfig.style.display = "none";
+        }
+
+        if (!Config.MENU.VEDI_NUMERI) {
+            this.btnNumbers.style.display = "none";
+        }
+        if (!Config.MENU.EXP_JSON ) {
+            this.btnExport.style.display = "none";
+        }
+
         this.events();
         Game.log("UI inizializzata");
-
     },
 
     events() {
