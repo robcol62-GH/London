@@ -47,8 +47,8 @@
     overflow:visible;
 
     box-sizing:border-box;
-
-    animation:cardAppear .30s ease-out;
+    animation:none;
+    /*animation:cardAppear .30s ease-out;*/
 
 }
 
@@ -541,7 +541,6 @@
         nailAppear .32s cubic-bezier(.18,.89,.32,1.45) .25s forwards;
 
 }
-/*LONDON*/
 .cardPin{
 
 position:absolute;

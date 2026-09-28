@@ -56,7 +56,7 @@ const Director = {
         // Togli anche la selezione del gioco normale
         Game.selectedPlayer = null;
 
-        UI.setStatus("ðŸŸ¢ Applicazione pronta");
+        UI.setStatus("🟢 Applicazione pronta");
 
         Renderer.refresh();
 

@@ -324,6 +324,172 @@
         "type": "players",
         "textSize": 80
     },
+    
+    {
+        "id": "CELL_RANDOM",
+        "name": "Selettore Casella Casuale",
+        "scope": "CELL",
+        "type": "randomCell",
+        "textSize": 80
+    },
+
+
+    {
+        "id": "SCEGLITEM",
+        "name": "Sceglie dove andare",
+        "type": "numbers",
+
+        "faces": [
+
+            {
+                "id": "1",
+                "text": "UNO",
+                "value": 1,
+                "image": null,
+                "style": "SOLID",
+                "color1": "#FF0000",
+                "color2": "#FFFFFF"
+            },
+
+            {
+                "id": "2",
+                "text": "DUE",
+                "value": 2,
+                "image": null,
+                "style": "SOLID",
+                "color1": "#FF0000",
+                "color2": "#FFFFFF"
+            },
+
+            {
+                "id": "3",
+                "text": "TRE",
+                "value": 3,
+                "image": null,
+                "style": "SOLID",
+                "color1": "#FF0000",
+                "color2": "#FFFFFF"
+            },
+            {
+                "id": "4",
+                "text": "QUATTRO",
+                "value": 3,
+                "image": null,
+                "style": "SOLID",
+                "color1": "#FF0000",
+                "color2": "#FFFFFF"
+            },
+            {
+                "id": "5",
+                "text": "CINQUE",
+                "value": 3,
+                "image": null,
+                "style": "SOLID",
+                "color1": "#FF0000",
+                "color2": "#FFFFFF"
+            },
+            {
+                "id": "3",
+                "text": "TRE",
+                "value": 3,
+                "image": null,
+                "style": "SOLID",
+                "color1": "#FF0000",
+                "color2": "#FFFFFF"
+            },
+            {
+                "id": "3",
+                "text": "TRE",
+                "value": 3,
+                "image": null,
+                "style": "SOLID",
+                "color1": "#FF0000",
+                "color2": "#FFFFFF"
+            },
+            {
+                "id": "8",
+                "text": "8",
+                "value": 8,
+                "image": null,
+                "style": "SOLID",
+                "color1": "#FF0000",
+                "color2": "#FFFFFF"
+            },
+            {
+                "id": "9",
+                "text": "9",
+                "value": 9,
+                "image": null,
+                "style": "SOLID",
+                "color1": "#FF0000",
+                "color2": "#FFFFFF"
+            },
+            {
+                "id": "10",
+                "text": "10",
+                "value": 10,
+                "image": null,
+                "style": "SOLID",
+                "color1": "#8b0000",
+                "color2": "#FFFFFF"
+            },
+            {
+                "id": "11",
+                "text": "11",
+                "value": 11,
+                "image": null,
+                "style": "SOLID",
+                "color1": "#8b0000",
+                "color2": "#FFFFFF"
+            },
+            {
+                "id": "12",
+                "text": "12",
+                "value": 12,
+                "image": null,
+                "style": "SOLID",
+                "color1": "#8b0000",
+                "color2": "#FFFFFF"
+            },
+            {
+                "id": "13",
+                "text": "13",
+                "value": 13,
+                "image": null,
+                "style": "SOLID",
+                "color1": "#8b0000",
+                "color2": "#FFFFFF"
+            },
+            {
+                "id": "14",
+                "text": "14",
+                "value": 14,
+                "image": null,
+                "style": "SOLID",
+                "color1": "#8b0000",
+                "color2": "#FFFFFF"
+            },
+            {
+                "id": "15",
+                "text": "15",
+                "value": 15,
+                "image": null,
+                "style": "SOLID",
+                "color1": "#8b0000",
+                "color2": "#FFFFFF"
+            },
+            {
+                "id": "16",
+                "text": "16",
+                "value": 16,
+                "image": null,
+                "style": "SOLID",
+                "color1": "#8b0000",
+                "color2": "#FFFFFF"
+            }
+
+        ]
+    },
 
     {
         "id": "DADODUE",

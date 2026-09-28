@@ -43,12 +43,25 @@
                     : Game.players;
 
             const index = Math.floor(Math.random() * players.length);
-console.log("PLAYER SELEZIONATO:", players[index]);
-console.log("TUTTI I PLAYER:", players);
 
             return players[index];
         }
+        // Selettore casella casuale
+        if (dice.type === "randomCell") {
 
+            const currentCellId = cell?.id;
+
+            const availableCells = Game.cells.filter(
+                c => c.id !== 0 && c.id !== currentCellId
+            );
+
+            const index = Math.floor(
+                Math.random() * availableCells.length
+            );
+
+            return availableCells[index];
+        }
+ 
         // Dado classico
         const index = Math.floor(
             Math.random() * dice.faces.length
@@ -179,6 +192,43 @@ console.log("TUTTI I PLAYER:", players);
 
             return;
         }
+        //========================================
+        // CASELLA CASUALE
+        //========================================
+
+        if (face.id !== undefined && !face.name && !face.image) {
+
+            ball.style.setProperty(
+                "--selector-color-1",
+                "#D90000"
+            );
+
+            ball.style.setProperty(
+                "--selector-color-2",
+                "#FFFFFF"
+            );
+
+            ball.classList.add("selectorStyle-SOLID");
+
+            // Bordo bianco più largo
+            ball.style.border = "10px solid #FFFFFF";
+
+            const text = document.createElement("div");
+
+            text.className = "ballSelectorText";
+
+            text.textContent = face.id;
+
+            // Numero molto più grande
+            text.style.fontSize = "110px";
+
+            text.style.color = "#FFFFFF";
+
+            ball.appendChild(text);
+
+            return;
+        }
+
         //========================================
         // IMMAGINE
         //========================================
@@ -313,15 +363,8 @@ console.log("TUTTI I PLAYER:", players);
             token.className =
                 "playerToken selectorColor-" + face.color;
 
-console.log(
-    "COLORE SELETTORE:",
-    face.color,
-    "CLASSE:",
-    token.className
-);                
 
             faceBox.appendChild(token);
-            
 
         }
     }

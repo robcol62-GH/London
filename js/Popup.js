@@ -96,8 +96,6 @@
 
             overlay.remove();
 
-            //UI.setStatus("ðŸŸ¢ Applicazione pronta");
-
         }
 
     },
@@ -200,7 +198,6 @@
             img.src = "images/card/" + data.image;
             img.alt = "";
             mediaArea.appendChild(img);
-
 
             if (data.selector) {
 

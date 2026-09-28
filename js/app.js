@@ -54,7 +54,7 @@ async function startApplication() {
 
     Game.log("Applicazione pronta");
 
-    UI.setStatus("ðŸŸ¢ Applicazione pronta");
+    UI.setStatus("🟢 Applicazione pronta");
 
 }
 
