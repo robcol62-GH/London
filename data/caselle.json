@@ -79,7 +79,7 @@
                 "x": 0.48632916740624765,
                 "y": 0.6319327463834012
             },
-            "image": null,
+            "image": "06.png",
             "txt": null,
             "video": null,
             "audio": null,
@@ -91,7 +91,7 @@
                 "x": 0.5913457264354319,
                 "y": 0.6286208437481638
             },
-            "image": null,
+            "image": "07.png",
             "txt": null,
             "video": null,
             "audio": null,
@@ -103,7 +103,7 @@
                 "x": 0.5621399378296824,
                 "y": 0.34490118466282904
             },
-            "image": null,
+            "image": "08.png",
             "txt": null,
             "video": null,
             "audio": null,
@@ -112,10 +112,10 @@
         {
             "id": 9,
             "position": {
-                "x": 0.7038190825554458,
-                "y": 0.5701105638589703
+                "x": 0.8109985994615895,
+                "y": 0.38464401628567746
             },
-            "image": null,
+            "image": "09.png",
             "txt": null,
             "video": null,
             "audio": null,
@@ -124,10 +124,10 @@
         {
             "id": 10,
             "position": {
-                "x": 0.9014242054624315,
-                "y": 0.5149121866050141
+                "x": 0.7038190825554458,
+                "y": 0.5701105638589703
             },
-            "image": null,
+            "image": "10.png",
             "txt": null,
             "video": null,
             "audio": null,
@@ -136,10 +136,70 @@
         {
             "id": 11,
             "position": {
-                "x": 0.8802966137050808,
-                "y": 0.5955018173957901
+                "x": 0.9171184371476939,
+                "y": 0.5193280567853306
             },
-            "image": null,
+            "image": "11.png",
+            "txt": null,
+            "video": null,
+            "audio": null,
+            "selector": null
+        },
+        {
+            "id": 12,
+            "position": {
+                "x": 0.8882881922271916,
+                "y": 0.5999176875761066
+            },
+            "image": "12.png",
+            "txt": null,
+            "video": null,
+            "audio": null,
+            "selector": null
+        },
+        {
+            "id": 13,
+            "position": {
+                "x": 0.505520685197543,
+                "y": 0.4928328357034316
+            },
+            "image": "13.png",
+            "txt": null,
+            "video": null,
+            "audio": null,
+            "selector": null
+        },
+        {
+            "id": 14,
+            "position": {
+                "x": 0.5012268189327873,
+                "y": 0.4409463610847128
+            },
+            "image": "14.png",
+            "txt": null,
+            "video": null,
+            "audio": null,
+            "selector": null
+        },
+        {
+            "id": 15,
+            "position": {
+                "x": 0.46319543201637997,
+                "y": 0.3349654767571169
+            },
+            "image": "15.png",
+            "txt": null,
+            "video": null,
+            "audio": null,
+            "selector": null
+        },
+        {
+            "id": 16,
+            "position": {
+                "x": 0.8140656467935578,
+                "y": 0.6849231885471992
+            },
+            "image": "16.png",
             "txt": null,
             "video": null,
             "audio": null,
