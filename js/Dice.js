@@ -131,12 +131,6 @@
 
             finalFace = this.roll(diceId, cell, previousFace);
             previousFace = finalFace;
-console.log(
-    "RIMBALZO",
-    i + 1,
-    "ID:",
-    finalFace?.id
-);
             this.showBallFace(ball, finalFace, dice );
 
             await new Promise(resolve =>

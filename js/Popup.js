@@ -249,7 +249,6 @@
                     const resultPromise =
                         Dice.animateBall(ball, data.selector, cell);                    
                         resultPromise.then(finalFace => {
-                            console.log("RISULTATO FINALE:", finalFace?.id);
                         });                        
 
                     //========================================
@@ -438,7 +437,6 @@
             });
 
             mediaArea.insertBefore(pin, mediaArea.firstChild);
-            console.log("CHIOD0 CREATO", pin);
         }
 
         //==============================
