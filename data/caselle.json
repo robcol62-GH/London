@@ -35,7 +35,7 @@
             "txt": null,
             "video": null,
             "audio": null,
-            "selector": null
+            "selector": "CELL_RANDOM"
         },
         {
             "id": 3,
@@ -47,7 +47,7 @@
             "txt": null,
             "video": null,
             "audio": null,
-            "selector": null
+            "selector": "CELL_RANDOM"
         },
         {
             "id": 4,
@@ -59,7 +59,7 @@
             "txt": null,
             "video": null,
             "audio": null,
-            "selector": null
+            "selector": "CELL_RANDOM"
         },
         {
             "id": 5,
@@ -71,7 +71,7 @@
             "txt": null,
             "video": null,
             "audio": null,
-            "selector": null
+            "selector": "CELL_RANDOM"
         },
         {
             "id": 6,
@@ -83,7 +83,7 @@
             "txt": null,
             "video": null,
             "audio": null,
-            "selector": null
+            "selector": "CELL_RANDOM"
         },
         {
             "id": 7,
@@ -95,7 +95,7 @@
             "txt": null,
             "video": null,
             "audio": null,
-            "selector": null
+            "selector": "CELL_RANDOM"
         },
         {
             "id": 8,
@@ -107,7 +107,7 @@
             "txt": null,
             "video": null,
             "audio": null,
-            "selector": null
+            "selector": "CELL_RANDOM"
         },
         {
             "id": 9,
@@ -119,7 +119,7 @@
             "txt": null,
             "video": null,
             "audio": null,
-            "selector": null
+            "selector": "CELL_RANDOM"
         },
         {
             "id": 10,
@@ -131,7 +131,7 @@
             "txt": null,
             "video": null,
             "audio": null,
-            "selector": null
+            "selector": "CELL_RANDOM"
         },
         {
             "id": 11,
@@ -143,7 +143,7 @@
             "txt": null,
             "video": null,
             "audio": null,
-            "selector": null
+            "selector": "CELL_RANDOM"
         },
         {
             "id": 12,
@@ -155,7 +155,7 @@
             "txt": null,
             "video": null,
             "audio": null,
-            "selector": null
+            "selector": "CELL_RANDOM"
         },
         {
             "id": 13,
@@ -167,7 +167,7 @@
             "txt": null,
             "video": null,
             "audio": null,
-            "selector": null
+            "selector": "CELL_RANDOM"
         },
         {
             "id": 14,
@@ -179,7 +179,7 @@
             "txt": null,
             "video": null,
             "audio": null,
-            "selector": null
+            "selector": "CELL_RANDOM"
         },
         {
             "id": 15,
@@ -191,7 +191,7 @@
             "txt": null,
             "video": null,
             "audio": null,
-            "selector": null
+            "selector": "CELL_RANDOM"
         },
         {
             "id": 16,
@@ -203,7 +203,7 @@
             "txt": null,
             "video": null,
             "audio": null,
-            "selector": null
+            "selector": "CELL_RANDOM"
         }
     ]
 }
